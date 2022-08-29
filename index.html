@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Player de vídeo</title>
+</head>
+<body>
+    
+    <div id="container">
+
+        <video loop id="video" src="./videox/video_halloween.mp4" poster="./videox/thumb.jpg"></video>
+
+        <div id="controle">
+            <img class="botoes" onclick="voltar()" src="./icones/voltar.png">
+            <img class="botoes" onclick="diminuir_volume()" src="./icones/diminuir_vol.png">
+            <img class="botoes" onclick="pause()" src="./icones/pause.png">
+            <img class="botoes" onclick="diminuir_velocidade()" src="./icones/diminuir.png">
+            <img class="botoes" onclick="stop()" src="./icones/stop.png">
+            <img class="botoes" onclick="aumentar_velocidade()" src="./icones/aumentar.png">
+            <img class="botoes" onclick="play()" src="./icones/play.png">
+            <img class="botoes" onclick="aumentar_volume()" src="./icones/aumentar_vol.png">
+            <img class="botoes" onclick="adiantar()" src="./icones/adiantar.png">       
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

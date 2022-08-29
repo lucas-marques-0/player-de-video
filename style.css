@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://wallpapercave.com/wp/wp2892149.jpg");
+    background-size: cover;
+
+    /* entender isso */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    position: relative;
+    width: 1000px;
+
+    /* adicionado recentemente - OBS: VER SE TEM GEITO MELHOR */
+    margin-top: 10%;
+}
+
+#video{
+    width: 100%;
+    border-radius: 30px;
+    border: 5px solid white;
+}
+
+#controle{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.botoes{
+    position: relative;
+    top: 100%;
+    transform: translateY(-100%);
+    width: 60px;
+    padding: 10px;
+}
